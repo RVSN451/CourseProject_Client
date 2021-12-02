@@ -14,6 +14,7 @@ public class GetMessage extends Thread {
     }
 
     @Override
+    @SuppressWarnings("InfiniteLoopStatement")
     public void run() {
         String message = "";
         while (true) {
@@ -26,7 +27,7 @@ public class GetMessage extends Thread {
                 log.error("Клиент {} потерял связь с сервером", client.getClientID());
                 client.setClientIsInterrupt(true);
                 try {
-                    Thread.sleep(3000);
+                    Thread.sleep(App.GET_MASSAGE_THREAD_SLEEP);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

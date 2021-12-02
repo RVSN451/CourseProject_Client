@@ -35,7 +35,7 @@ public class SendMessage extends Thread {
     @Override
     public void run() {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(App.SEND_THREAD_SLEEP);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

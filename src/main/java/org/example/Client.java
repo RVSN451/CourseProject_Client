@@ -35,7 +35,7 @@ public class Client extends Thread {
     @Setter(AccessLevel.NONE)
     private BufferedReader in;
 
-    public Client(String host, int port) {
+    public Client(String host, Integer port) {
         clientID = UUID.randomUUID();
         try {
             clientSocket = new Socket(host, port);
@@ -48,9 +48,9 @@ public class Client extends Thread {
             App.stopApplication();
 
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error(e.toString());
         }
-        if (clientSocket != null && !clientIsInterrupt) {
+        if (clientSocket != null) {
             clientIsInterrupt = false;
             log.info("Клиент {} зарегистрирован. Socket {}", clientID, clientSocket);
         } else clientIsInterrupt = true;
@@ -59,7 +59,7 @@ public class Client extends Thread {
     @Override
     public void run() {
 
-        if (clientIsInterrupt == false) {
+        if (!clientIsInterrupt) {
             Thread sendMessage = new Thread(new SendMessage(this));
             sendMessage.setName("SendMessageThread");
             sendMessage.setDaemon(true);
@@ -73,7 +73,7 @@ public class Client extends Thread {
 
         while (!clientIsInterrupt) {
             try {
-                Thread.sleep(200L);
+                Thread.sleep(App.CLIENT_THREAD_SLEEP);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
