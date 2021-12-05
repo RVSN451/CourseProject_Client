@@ -293,3 +293,38 @@
 2021-12-02 20:13:48.169 [GetMessageThread] ERROR org.example.App - Клиент a62246b7-cc12-4315-80bc-d427856e643a потерял связь с сервером
 2021-12-02 20:13:48.261 [MAIN_THREAD] INFO  org.example.App - Клиент a62246b7-cc12-4315-80bc-d427856e643a с именем null завершил работу приложения.
 2021-12-02 20:13:48.262 [MAIN_THREAD] ERROR org.example.App - java.lang.InterruptedException: sleep interrupted
+2021-12-02 20:32:10.316 [MAIN_THREAD] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 зарегистрирован. Socket Socket[addr=localhost/127.0.0.1,port=8080,localport=63767]
+2021-12-02 20:32:10.344 [MAIN_THREAD] ERROR org.example.App - Сервер недоступен.
+2021-12-02 20:32:10.345 [MAIN_THREAD] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 запущен.
+2021-12-02 20:32:32.992 [SendMessageThread] INFO  org.example.App - Клиенту 63a97c51-9a7e-4c8a-8350-3133e1ef7232 присвоено clientName: ВАСЯ
+2021-12-02 20:32:56.352 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: Пользователь Наташа присоединился к чату..
+2021-12-02 20:32:56.353 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: 			Количество пользователей в сети: 2.
+2021-12-02 20:33:06.245 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: Наташа: Привет )).
+2021-12-02 20:33:21.676 [SendMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 отправил сообщение: И тебе так же!!.
+2021-12-02 20:33:46.010 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: Пользователь Наташа покинул чат..
+2021-12-02 20:33:46.011 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: Количество пользователей в сети: 1.
+2021-12-02 20:35:09.407 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: Пользователь Наташа присоединился к чату..
+2021-12-02 20:35:09.407 [GetMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 получил сообщение: 			Количество пользователей в сети: 2.
+2021-12-02 20:35:22.749 [SendMessageThread] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 отправил сообщение: ьрсрп.
+2021-12-02 20:35:35.228 [GetMessageThread] ERROR org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 потерял связь с сервером
+2021-12-02 20:35:35.348 [MAIN_THREAD] INFO  org.example.App - Клиент 63a97c51-9a7e-4c8a-8350-3133e1ef7232 с именем ВАСЯ завершил работу приложения.
+2021-12-02 20:35:35.348 [MAIN_THREAD] ERROR org.example.App - java.lang.InterruptedException: sleep interrupted
+2021-12-02 20:36:04.148 [MAIN_THREAD] ERROR org.example.App - Пользователю 241d0e6d-2003-4b09-8d08-90ba72e37788 не удалось установить связь с сервером. Север не доступен.Попробуйте перезапустить приложение позже.
+2021-12-02 20:36:04.158 [MAIN_THREAD] ERROR org.example.App - Сервер недоступен.
+2021-12-02 20:36:04.159 [MAIN_THREAD] INFO  org.example.App - Клиент 241d0e6d-2003-4b09-8d08-90ba72e37788 запущен.
+2021-12-02 20:36:04.159 [MAIN_THREAD] INFO  org.example.App - Клиент 241d0e6d-2003-4b09-8d08-90ba72e37788 с именем null завершил работу приложения.
+2021-12-02 20:36:04.160 [MAIN_THREAD] ERROR org.example.App - java.lang.InterruptedException: sleep interrupted
+2021-12-05 15:08:47.048 [MAIN_THREAD] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 зарегистрирован. Socket Socket[addr=localhost/127.0.0.1,port=8080,localport=65201]
+2021-12-05 15:08:47.067 [MAIN_THREAD] ERROR org.example.App - Сервер недоступен.
+2021-12-05 15:08:47.071 [MAIN_THREAD] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 запущен.
+2021-12-05 15:08:55.816 [SendMessageThread] INFO  org.example.App - Клиенту d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 присвоено clientName: 111
+2021-12-05 15:09:06.873 [GetMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 получил сообщение: Пользователь 222 присоединился к чату..
+2021-12-05 15:09:06.874 [GetMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 получил сообщение: 			Количество пользователей в сети: 2.
+2021-12-05 15:09:26.041 [SendMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 отправил сообщение: ПРИВЕТ Я 1.
+2021-12-05 15:09:50.885 [GetMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 получил сообщение: 222: ПРИВЕТ А Я 2.
+2021-12-05 15:09:51.917 [GetMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 получил сообщение: 222: .
+2021-12-05 15:10:00.707 [SendMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 отправил сообщение: ДРОЛПМДРО.
+2021-12-05 15:10:05.481 [GetMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 получил сообщение: 222: ЖДЛОР.
+2021-12-05 15:10:16.637 [SendMessageThread] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 отправил сообщение: /EXIT.
+2021-12-05 15:10:16.794 [MAIN_THREAD] INFO  org.example.App - Клиент d366be5c-dc8b-4ea3-afb9-15c8cd0bdd30 с именем 111 завершил работу приложения.
+2021-12-05 15:10:16.794 [MAIN_THREAD] ERROR org.example.App - java.lang.InterruptedException: sleep interrupted
